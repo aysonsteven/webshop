@@ -1,0 +1,60 @@
+
+span{
+    font-family: FontAwesome;
+}
+span.cart:after{
+    content: "\f07a";
+    font-size: 40px;
+}
+span.badge{
+    position: relative;
+    bottom: 15px;
+}
+span.nxt:after{
+    content: "\f0da";
+}
+span.prev:after{
+    content:"\f0d9";
+}
+
+span.item:after{
+    content: "\f03e";
+    font-size: 180px;
+}
+div.items{
+    .col-sm{
+
+        .add{
+            position: relative;
+            bottom: 120px;
+            right: 35px;
+            font-size: 25px;
+            color: black;
+            font-weight: 600;
+            border: black solid 3px;
+            cursor: pointer;
+        }
+    }
+}
+
+div.item-info{
+    margin: 15px;
+    border: solid 1px black;
+    overflow: scroll;
+    height: 320px;
+    .row{
+        margin: 50px;
+    }
+    .info{
+        padding: 15px;
+        border: 1px solid;
+        position: relative;
+        top: 70px;
+ 
+    }
+    span.quantity, i{
+        position: relative;
+        top: 70px;
+    }
+  
+}
